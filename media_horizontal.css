@@ -1,0 +1,53 @@
+@media screen and (min-aspect-ratio: 196/100) {
+	body {
+		overflow: hidden;
+		overflow-y: auto;
+	}
+
+	.swiper-wrapper,
+	.swiper-slide {
+		transform: none!important;
+	}
+
+	.swiper-button-next {
+		display: none!important;
+	}
+
+	.container  {
+		pointer-events: none;
+		height: auto;
+		position: relative;
+	}
+
+	.full_screen {
+		height: auto!important;
+	}
+
+	.intro-screen__inner {
+		margin-bottom: 0;
+	}
+
+	.rambler-share__container {
+		position: absolute;
+	}
+
+	.rambler-share__container .heart svg .heart_outline {
+		fill: #fff;
+	}
+
+	.rambler-share__container.show_sharing .heart svg .heart_body {
+		fill: #fff;
+	}
+
+	.rambler-share__container .rambler-share > div {
+		color: #fff !important;
+	}
+
+	.frame_logo,
+	.button,
+	.footer-auth__rules,
+	.rambler-share__container {
+		pointer-events: auto;
+	}
+
+}

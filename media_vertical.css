@@ -1,0 +1,294 @@
+@media screen and (max-aspect-ratio: 10/18) {
+
+	.inner_screen {
+		margin: 1.8vh;
+		flex: 1;
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		max-width: calc(100vw - 3.6vh);
+	}
+
+	.intro-screen {
+
+	}
+
+	.frame_header {
+		height: 4.6vh;
+		flex: 0 1 4.6vh;
+		min-height: 4.6vh;
+	}
+
+	.frame_container {}
+	.frame_footer {
+		height: 4.6vh;
+		flex: 0 1 4.6vh;
+	}
+
+	.intro-screen__inner {
+		background: hsla(48, 100%, 50%, 0.5);
+		background: #ffffff url(img/01.svg) 50% 8vh no-repeat;
+		background-size: 26.7vh;
+	}
+
+	.h1 {
+		font-size: 4.7vh;
+		margin-left: 1.5vh;
+		font-weight: bold;
+		line-height: 4.8vh;
+		letter-spacing: 0.11vh;
+		margin-top: 29.2vh;
+		overflow: visible;
+	}
+
+	.text {
+		font-size: 2.1vh;
+		margin-left: 1.7vh;
+		margin-top: 1.7vh;
+		letter-spacing: 0;
+		max-width: 100%;
+		line-height: 2.73vh;
+		margin-right: 1.7vh;
+	}
+
+	.accent {
+		position: relative;
+		margin-top: 3.6vh;
+		width: 52.4vh;
+		min-height: 11.6vh;
+		display: flex;
+		align-items: center;
+		background: #3a465e url(img/sale.png) 1.7vh 50% no-repeat;
+		background-size: 5.8vh;
+		margin-left: -1.7vh;
+		max-width: calc(100vw - 4.6vh);
+		height: auto;
+		padding-right: 1.9vh;
+	}
+
+	.accent:after {
+		content: '';
+		display: block;
+		width: 0;
+		position: absolute;
+		border-color: transparent;
+		border-top-width: 5.8vh;
+		border-bottom-width: 5.85vh;
+		border-left-width: 2.6vh;
+		border-right-width: 2.6vh;
+		border-right-color: #fff;
+		right: 0;
+		border-style: solid;
+	}
+
+	.accent-text {
+		color: #fff;
+		padding: 0 2.1vh 0.9vh 9.4vh;
+	}
+
+	.auth {
+		margin-left: 1.7vh;
+		margin-top: 4.1vh;
+	}
+
+	.auth_text {
+
+	}
+
+	.auth_text.fs16 {
+		font-size: 2.1vh;
+	}
+
+	.auth_buttons {
+		margin-top: 2vh;
+	}
+
+	.button {
+		width: 17.5vh;
+		height: 5.3vh;
+		margin-right: 0.1vh;
+		border-radius: 0.2vh;
+		margin-left: 0.1vh;
+	}
+
+	.button_kassa {
+		background-position: 50%;
+		background-repeat: no-repeat;
+		background-size: 11.3vh, cover;
+		margin-right: 0.8vh;
+	}
+
+	.button_afisha {
+		background-size: 8.8vh;
+	}
+
+	.info-screen {
+
+	}
+
+	.info_block {
+		max-width: 100vw;
+	}
+
+
+	.info-screen__inner {
+		justify-content: space-between;
+	}
+
+	.head {}
+
+	.head_title {
+		font-weight: bold;
+	}
+
+	.head_subtitle {
+		margin-top: 0.4vh;
+	}
+
+	.head_subtitle.fs16 {
+		line-height: 2.6vh;
+		font-size: 2.1vh;
+	}
+
+	.step_subtite.fs14 {
+		margin-left: 1vh;
+		margin-right: 1vh;
+	}
+
+	.steps {
+		height: 34.2vh;
+		display: flex;
+	}
+
+	.ico {
+		width: 100%;
+		height: 16.7vh;
+		margin-top: 3.3vh;
+	}
+
+	.step_title {
+		font-size: 3.05vh;
+		line-height: 2.2vh;
+		margin-top: 1.3vh;
+	}
+
+	.step_subtitle {
+		text-align: center;
+	}
+
+	.footer {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		padding-bottom: 2vh;
+	}
+
+	.footer_title.fs25 {
+		color: #fff;
+		font-weight: bold;
+		font-size: 2.65vh;
+		margin-top: 1.8vh;
+		line-height: 3.5vh;
+	}
+
+	.footer_subtitlte.fs14 {
+		font-weight: 100;
+		color: #f6e0e0;
+		letter-spacing: 0;
+		margin: 0.7vh 5.1vh 0;
+		line-height: 2.8vh;
+	}
+
+	.footer-auth {}
+
+	.footer-auth__title {
+		text-align: center;
+		color: #fff;
+	}
+
+	.footer-auth__title.fs14 {
+		font-size: 1.9vh;
+		margin-top: 2.4vh;
+	}
+
+	.footer-auth__buttons {}
+
+	.footer-auth__rules {
+		text-align: center;
+		text-decoration: underline;
+		font-size: 1.8vh;
+		margin-top: 1.5vh;
+		color: #fff;
+		font-weight: 100;
+	}
+
+	.fs25 {
+		font-size: 2.85vh;
+		margin-top: 1.4vh;
+		line-height: 3.5vh;
+	}
+
+	.fs16 {
+		font-size: 1.95vh;
+		line-height: 2.23vh;
+		letter-spacing: 0.02vh;
+	}
+
+	.fs14 {
+		font-size: 2vh;
+		line-height: 2.13vh;
+		letter-spacing: 0.02vh;
+		text-align: center;
+		margin-top: 2.3vh;
+		padding: 0 0.5vh;
+	}
+
+	.center {
+		text-align: center;
+	}
+
+	.steps {
+		display: none;
+	}
+
+	.swiper-container_inner {
+		display: flex;
+	}
+
+	.swiper-container_inner .swiper-wrapper {
+		display: flex;
+	}
+
+	.sber_logo {
+		background: url(img/sber_logo.svg) 1.6vh 1.6vh no-repeat;
+		background-size: 12vh;
+	}
+
+	.kassa_logo {
+		background: url(img/kassa_logo.png) 50% 1.8vh no-repeat;
+		background-size: 12.2vh;
+	}
+
+	.afisha_logo {
+		background: url(img/afisha_logo.svg) top 1.9vh right 2.1vh no-repeat;
+		background-size: 9.1vh;
+	}
+
+	.swiper-button-next {
+		bottom: 2.1vh;
+    height: 3.7vh;
+    width: 12vh;
+    background: url(img/arrow.svg) 50% 2vh no-repeat;
+    background-size: 2.1vh;
+    padding-top: 1.4vh;
+	}
+
+	.rambler-share__container {
+		display: none;
+	}
+
+	.swiper-pagination {
+		margin-bottom: -7vh;
+	}
+}
